@@ -1,0 +1,20 @@
+@keyframes mudarcor{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: gold;
+    }
+}
+
+#mudar{
+    text-align: center;
+    animation: mudarcor 2s infinite;
+}
+
+.centro{
+    text-align: center;
+}
